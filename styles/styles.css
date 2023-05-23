@@ -1,0 +1,188 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --Gray: #adb5bd;
+    --Gray-secondary: #ced4da;
+    --Black: #000000;
+    --Blue: #2196f3;
+
+
+    --sm: 300;
+    --md: 400;
+    --lg: 600;
+
+    --sm-s: 1rem;
+    --md--d: 1.1rem;
+    --lg--l: 2.5rem;
+}
+
+/* Container */
+
+.div {
+    width: 30rem;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+
+.header {
+    width: inherit;
+    height: 2.5rem;
+    border-bottom: 0.1rem solid var(--Gray);
+    
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header__figure {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.figure__img--header {
+    width: 1rem;
+    padding: 1rem;
+}
+
+.figure__figcaption {
+    font-weight: var(--md);
+    font-size: var(--sm-s)
+}
+
+
+/* Main */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main__figure {
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure__img--main {
+    width: 3rem;
+}
+
+.figure__h1{
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+
+    font-size: var(--lg--l);
+    font-weight: var(--lg);
+}
+
+.figure__span {
+    margin-top: 0.5rem;
+
+    font-size: var(--md--d);
+    font-weight: var(--md);
+}
+
+.span__a {
+    text-decoration: none;
+    color: var(--Blue);
+
+    font-weight: var(--lg);
+}
+
+
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+
+    width: 27rem;
+}
+
+.form__input {
+    margin: 0;
+    padding: 1rem;
+    margin-top: 2rem;
+
+    color: var(--Gray);
+    border: 0.1rem solid var(--Gray-secondary);
+}
+
+.form__a {
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: var(--Blue);
+    font-weight: var(--lg);
+    font-size: var(--sm-s);
+}
+
+
+
+.main__p {
+    margin: 0;
+    padding: 0;
+    margin-top: 3rem;
+
+    width: 27rem;
+    color: var(--Gray);
+}
+
+.div__div {
+    width: 27rem;
+    display: flex;
+    justify-content: end;
+    margin-top: 2.5rem;
+}
+
+.main__button {
+    margin: 0rem;
+    padding: 0rem;
+
+    height: 3rem;
+    width: 7rem;
+
+    border: 0.1rem solid var(--Blue);
+    background-color: var(--Blue);
+    border-radius: 0.3rem;
+
+    color: white;
+
+    font-size: var(--md--d);
+    font-weight: var(--lg);
+}
